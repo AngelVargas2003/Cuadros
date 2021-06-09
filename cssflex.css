@@ -1,0 +1,42 @@
+.grid-container{
+    display: grid;
+    gap: 1600px;
+    padding: 10px;
+    background-color: burlywood;
+    padding: 10px;
+    border:2px solid black;
+    margin: 10px;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    grid-template-areas: 
+    "n1     n2"
+    "n3     n4";
+}
+.grid-container div{
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px solid black;
+    padding: 0px;
+}
+.n1{
+    grid-area: n1;
+}
+.n2{
+    grid-area: n2;
+}
+.n3{
+    grid-area: n3;
+   
+}
+.n4{
+    grid-area: n4;
+    
+}
+
+
+*{
+    box-sizing: border-box;
+}

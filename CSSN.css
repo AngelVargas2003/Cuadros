@@ -1,0 +1,39 @@
+.flex-container{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);;
+    border:2px solid black;
+    margin: 10px;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    border: 2px solid white;
+    padding: 0px;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.renglon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
